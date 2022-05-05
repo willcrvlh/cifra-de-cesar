@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passinho do romano</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+
+<body>
+    <header>
+        <h1>Codificador e decodificador de mensagens</h1>
+    </header>
+    <main id ="tudo">
+        <form>
+            <fieldset>
+                <!-- esta é a parte de escolhas-->
+                <div id="option">
+                    <label>Escolha uma opção:</label> <br>
+                    <select name="escolha uma opção" id="opcao">
+                        <option disabled>Selecione...</option>
+                        <option value="2">Cifra de César</option>
+                        <option value="3">Base 64</option>
+                    </select>
+                </div>
+
+                <!--passo-->
+                <div class="pass">
+                    <p>Escolha um passo:</p>
+                    <input type="number" id="passo">
+                </div>
+
+                <!--esta parte é para realizar o desejo do usuario-->
+                <div class="escolha">
+                    <label>O que você deseja fazer?</label> <br>
+                    <input type="radio" name="o que você deseja fazer" value="1" id="codifica" onclick="mudaBotao()"/> codificar
+                    <input type="radio" name="o que você deseja fazer" value="2" id="decode" onclick="mudaBotao()"/> decodificar
+                </div>
+
+                <!--mensagem-->
+                <div class="mensagem">
+                    <textarea name="mensagem" cols="80" rows="10" placeholder="digite aqui a sua mensagem" id="mensagem"></textarea>
+                </div>
+
+                <!--botoes-->
+                <div class="button">
+                   <input type="button" id="codificar" class="btn"value="codificar mensagem"/> 
+                </div>
+
+                <div id="btn">
+
+                </div>
+
+                <!--resultado-->
+                <div class="resultado">
+                    <textarea name="resultado" cols="80" rows="10" placeholder="resultado" disabled id="resultado"></textarea>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados 2022 © Resilia educação</p>
+        <p>Projeto para fins edicacionais</p>
+    </footer>
+    <script src=""></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

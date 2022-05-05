@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    font-family:'Satisfy', cursive;
+    font-size: 200%;
+    text-align: center;
+    color: chartreuse;
+    background-color: black;
+    background-size: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(./passinho.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.button{
+    text-align: center;
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    font-size : 150%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#option{
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    height: 30px;
+}
+
+#opcao{
+    height: 20px;
+    width: 120px;
+    margin: 5px;
+
+}
+.pass{
+    text-align: center;
+    color: beige;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 200%;
+    margin-top: 30px;
+    justify-content: center;
+    align-self: center;
+    display: none;
+    flex-direction: column;
+    position: relative;
+    top: 20px
+    
+}
+
+.pass input[type="number"]{
+    align-items:center;
+    justify-content: center;
+}
+
+
+#passo{
+    height: 120%;
+    width: 10%;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 5px;
+}
+
+.escolha{
+    color: beige;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.mensagem{
+    text-align: center;
+    width: 100%;
+    height: 200%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.btn{
+    text-align: center;
+    padding:10px;
+    background-color:green;
+    
+    align-self: center;
+}
+textarea{
+    resize: none;
+}
+
+.resultado{
+    text-align: center;
+    width: 100%;
+    height: 200%;
+    margin-top: 2%;
+}
+
+#codifica{
+    color: white;
+    background-color: green;
+    width: 10%;
+    height: 15px;
+}
+
+#decodifica{
+    color: white;
+    background-color: green;
+    width: 10%;
+    height: 30px;
+    margin-top: 1%;
+}
+
+label{
+    margin-top: 15px;;
+}
+
+#resultado{
+    background-color: rgba(255, 255, 255, 0.616);
+    color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: green;
+    width: 100%;
+    margin-top: 5%;
+}
